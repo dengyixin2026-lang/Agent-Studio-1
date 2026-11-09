@@ -1,5 +1,7 @@
 # Design Computation — Week 1 Weekly Journal
 
+[All Weeks](README.md) · **Week 1** · [Week 2](week-02.md) · [Week 3](week-03.md) · [Week 4](week-04.md)
+
 **Experiment:** Personal Design Career Advisor  
 **Platform:** Agent Design Studio  
 **Agent Studio:** [Computational Design — AI Workshop Series 2026](https://agentstudio.aroughidea.com/w/computational-design-ai-workshop-series-2026)  
