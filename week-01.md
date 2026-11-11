@@ -1,12 +1,29 @@
 # Design Computation — Week 1 Weekly Journal
 
-[All Weeks](README.md) · **Week 1** · [Week 2](week-02.md) · [Week 3](week-03.md) · [Week 4](week-04.md)
+[All Weeks](README.md) · **Week 1** · [Week 2](week-02.md) · [Week 3](week-03.md)
 
 **Experiment:** Personal Design Career Advisor  
 **Platform:** Agent Design Studio  
 **Agent Studio:** [Computational Design — AI Workshop Series 2026](https://agentstudio.aroughidea.com/w/computational-design-ai-workshop-series-2026)  
+**Class dates:** Tuesday, October 20, 2026 and Thursday, October 22, 2026  
 **Date of saved sessions:** October 27, 2026  
 **Main question:** *What are my main strengths as a designer?*
+
+## Dated Journal Entries
+
+### Tuesday, October 20, 2026 — Agent Sandbox and Experiment Setup
+
+**Class focus:** Using an agent sandbox and examining how the model, system instructions, temperature, user input, and knowledge affect behavior.
+
+**Evidence status:** The experimental sessions documented below were saved on October 27, 2026. I am keeping that saved-session date separate rather than presenting the sessions as if they were run during this class.
+
+**Journal focus:** The sections below document the experiment goal, six saved iterations, comparative findings, reflection, and evidence files.
+
+### Thursday, October 22, 2026 — Designing System Behavior
+
+**Class focus:** Bodystorming the letter-writing experience and identifying the assistant's role, inputs, boundaries, outputs, and interaction loop.
+
+**Evidence status:** No separate Agent Studio session from this date is included in the current repository. The related Formal Complaint Ghostwriter System Card work is documented in [Week 2](week-02.md).
 
 ## 1. Experiment Goal
 
