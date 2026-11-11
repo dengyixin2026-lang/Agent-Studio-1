@@ -1,14 +1,31 @@
 # Design Computation - Week 2 Weekly Journal
 
-[All Weeks](README.md) · [Week 1](week-01.md) · **Week 2** · [Week 3](week-03.md) · [Week 4](week-04.md)
+[All Weeks](README.md) · [Week 1](week-01.md) · **Week 2** · [Week 3](week-03.md)
 
 - **Experiment:** Formal Complaint Ghostwriter
 - **Workshop:** Bodystorming and iterative agent design
+- **Class dates:** Tuesday, October 27, 2026 and Thursday, October 29, 2026
 - **Role:** Letter Writing Assistant
 - **Context:** MDes Cohort 7 workload-related complaints
 - **Current evidence:** Three written System Card versions and one Knowledge Base document
 
 > **Evidence note:** This journal documents the three System Card versions that already exist in our class and team materials. I have not found saved Agent Studio conversations or screenshots for these versions. The changes below are therefore documented as written design revisions, not as observed model behavior.
+
+## Dated Journal Entries
+
+### Tuesday, October 27, 2026 — Formal Complaint Ghostwriter System Design
+
+**Journal focus:** Organize the classroom observations into a rigorous role, System Card, engagement script, and evaluation criteria. The three written System Card versions and the Knowledge Base are documented below.
+
+**Evidence status:** These are existing written design revisions. They are not presented as observed Agent Studio results because saved sessions or screenshots for the three versions have not yet been added.
+
+### Thursday, October 29, 2026 — Google AI Studio App Build
+
+**Journal focus:** Build a basic app with no agent, build a baseline letter-writing assistant without the Role Card, and then build the Formal Complaint Ghostwriter using the design intent, user journey, System Instructions, standardized script, and system diagram.
+
+**Observed evidence so far:** Google AI Studio generated a general letter-writing interface, but the first runtime generation tests failed and the editable preview remained empty. A successful baseline output has not yet been recorded.
+
+**Pending evidence:** A working basic app, a successful no-Role-Card baseline letter, three conversational modifications of the Role Card agent, the in-app system diagram, and one app with a different design goal.
 
 ## 1. Week 2 Goal
 
