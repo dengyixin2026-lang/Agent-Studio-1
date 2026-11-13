@@ -14,9 +14,17 @@
 
 The generated letter-writing UI loaded, but the first test produced non-JSON HTML and the error `Unexpected token '<'`. Another attempt displayed `Could not generate the letter right now`. I recorded these as failed runtime tests rather than claiming the app was working.
 
+![AI Studio runtime diagnosis and repair report](images/ghostwriter-04-runtime-repair-report.png)
+
+*AI Studio described a model/API and response-parsing repair. I treated this message as a repair claim, not proof of success, until the interface generated a letter.*
+
 ### Successful generation
 
 After repairing the runtime path, the same workload complaint produced a complete editable formal letter. Unknown names, dates, course details, and addresses appeared as bracketed placeholders rather than fabricated facts.
+
+![GhostWriter successfully generated an editable workload complaint letter](images/ghostwriter-05-successful-letter.png)
+
+*First verified successful generation: the incomplete workload complaint produced an editable letter with visible placeholders.*
 
 ### Iteration 1 — Missing-fact check
 
@@ -29,6 +37,10 @@ I asked AI Studio to identify important missing facts before drafting. The revis
 
 The user could answer or select **Skip & Use Placeholders**. This translated the System Card’s factual boundary into a visible interaction.
 
+![GhostWriter iteration 1 missing-fact questions](images/ghostwriter-06-missing-fact-check.png)
+
+*Iteration 1: the app asks about course details, deadlines, recipient, and requested resolution before drafting.*
+
 ### Iteration 2 — Confirmation before drafting
 
 The next version added an editable summary with three sections:
@@ -38,6 +50,10 @@ The next version added an editable summary with three sections:
 3. Requested Resolution
 
 The summary was labeled **Pending Your Confirmation (Not Yet Verified)**. A letter was generated only after the user confirmed or corrected it.
+
+![GhostWriter iteration 2 editable confirmation summary](images/ghostwriter-07-confirm-summary.png)
+
+*Iteration 2: the user can edit and confirm Situation, Impact, and Requested Resolution before drafting.*
 
 ## Thursday, November 12 — Revision and Evaluation
 
@@ -54,6 +70,32 @@ Instead of silently overwriting the draft, the app produced two editable alterna
 
 The interface explained their different tone and emphasis. The user could select either version or choose **Keep Current Draft**.
 
+![GhostWriter iteration 3 post-draft revision workflow](images/ghostwriter-08-revision-workflow.png)
+
+*Iteration 3 implementation: unclear requests open a comparison workflow instead of overwriting the current draft.*
+
+![GhostWriter generated letter after the confirmed summary](images/ghostwriter-09-generated-letter.png)
+
+*The generated letter remained directly editable and preserved bracketed placeholders for unknown information.*
+
+![GhostWriter custom revision request](images/ghostwriter-11-custom-revision.png)
+
+*Standardized revision test: “Make the letter stronger, but do not make it aggressive.”*
+
+![GhostWriter revision option A](images/ghostwriter-12-option-a.png)
+
+*Option A — Constructive & Collaborative.*
+
+![GhostWriter revision option B and keep-current-draft control](images/ghostwriter-13-option-b.png)
+
+*Option B — Firm & Evidence-Based, with a separate Keep Current Draft control.*
+
+### Additional scenario evidence
+
+The app also retained reusable correspondence scenarios. These examples were not treated as new test results; they were interface evidence that the same workflow could be started with a different design context.
+
+![GhostWriter correspondence scenario chooser](images/ghostwriter-10-scenarios.png)
+
 ### Peer feedback
 
 > The three-step flow was easy to understand, and the clarification questions and visible placeholders made missing information clear. However, the generated letter expanded the original complaint with stronger claims about an “unmanageable burden,” “high academic standards,” and effects on “the student body.” The agent should avoid broadening the user’s experience beyond confirmed information.
@@ -63,6 +105,14 @@ This feedback revealed a problem beyond invented names or dates: an agent can ke
 ### Deployment test
 
 The first Vercel deployment loaded the frontend but returned `Request error (404)` when Generate Letter was pressed. After repairing the production API route and environment configuration, the public version generated an editable placeholder-based letter from the intentionally incomplete prompt `Write a complain letter`.
+
+![GhostWriter deployed frontend returning a 404 request error](images/ghostwriter-14-deployment-404.png)
+
+*Failed deployment test: the frontend loaded, but the production generation request returned 404.*
+
+![GhostWriter deployed app successfully generating a placeholder-based letter](images/ghostwriter-15-deployment-success.png)
+
+*Successful deployment test: the public app generated an editable letter while keeping missing information visible as placeholders.*
 
 - **Public app:** [ghostwriter-sqhi.vercel.app](https://ghostwriter-sqhi.vercel.app/)
 - **Source:** [yi470/GhostWriter](https://github.com/yi470/GhostWriter)

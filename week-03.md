@@ -27,7 +27,19 @@ I first asked AI Studio to build a simple assistant in which the user could desc
 - a Generate Letter button;
 - an editable letter preview.
 
+![GhostWriter baseline interface generated in Google AI Studio](images/ghostwriter-01-baseline-interface.png)
+
+*Baseline interface: the app looked complete before the letter-generation path was verified.*
+
 The interface was generated, but the first runtime tests failed. One response returned HTML where JSON was expected and displayed `Unexpected token '<'`. A later attempt displayed `Could not generate the letter right now`. At this stage I had a visible UI, but not a verified working letter agent.
+
+![GhostWriter returned non-JSON HTML and a build failure](images/ghostwriter-02-json-runtime-error.png)
+
+*Observed failure: the frontend attempted to parse an HTML response as JSON.*
+
+![GhostWriter retry still could not generate a letter](images/ghostwriter-03-retry-failure.png)
+
+*Observed retry failure: AI Studio reported a repair, but the live interface still could not generate the letter.*
 
 ### Design intent
 
