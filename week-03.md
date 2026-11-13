@@ -1,6 +1,6 @@
 # Design Computation — Week 3 Weekly Journal
 
-[All Weeks](README.md) · [Week 1](week-01.md) · [Week 2](week-02.md) · **Week 3** · [Week 4](week-04.md)
+[All Weeks](README.md) · [Week 1](week-01.md) · [Week 2](week-02.md) · **Week 3**
 
 - **Class meetings:** Tuesday, November 3 and Thursday, November 5, 2026
 - **Platform:** Google AI Studio
@@ -98,4 +98,3 @@ The planned flow was not yet evidence of success. The actual implementation, thr
 - [FormalFlow public deployment](https://ghostwriter-sqhi.vercel.app/)
 - [FormalFlow Google AI Studio project](https://ai.studio/apps/1c2e08ac-00d5-4350-bde1-aa7a9918171e)
 - [Editable system maps in FigJam](https://www.figma.com/board/lCqKByHlpduLcwGlkoVqRB/TDF-Weekly-Journal?node-id=215-361)
-
