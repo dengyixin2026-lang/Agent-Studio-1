@@ -1,6 +1,6 @@
 # Design Computation - Week 2 Weekly Journal
 
-[All Weeks](README.md) · [Week 1](week-01.md) · **Week 2** · [Week 3](week-03.md)
+[All Weeks](README.md) · [Week 1](week-01.md) · **Week 2** · [Week 3](week-03.md) · [Week 4](week-04.md)
 
 - **Experiment:** Formal Complaint Ghostwriter
 - **Workshop:** Bodystorming and iterative agent design
